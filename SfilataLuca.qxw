@@ -1,0 +1,3663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>matte</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="None" Line="0" Profile="AKAI MPD232"/>
+    <Output Plugin="ArtNet" UID="192.168.178.55" Line="1"/>
+    <Feedback Plugin="MIDI" UID="None" Line="1"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1">
+    <Input Plugin="MIDI" UID="None" Line="1" Profile="AKAI MPD232"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>0</ID>
+   <Name>Xperior16R BSWII #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>1</ID>
+   <Name>Xperior16R BSWII #2</Name>
+   <Universe>0</Universe>
+   <Address>19</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>2</ID>
+   <Name>Xperior16R BSWII #3</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>3</ID>
+   <Name>Xperior16R BSWII #4</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>4</ID>
+   <Name>Xperior16R BSWII #5</Name>
+   <Universe>0</Universe>
+   <Address>79</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>ACME</Manufacturer>
+   <Model>Xperior16R BSWII</Model>
+   <Mode>19ch</Mode>
+   <ID>5</ID>
+   <Name>Xperior16R BSWII #6</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>19</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>MAC Aura</Model>
+   <Mode>Standard Mode</Mode>
+   <ID>6</ID>
+   <Name>MAC Aura #1</Name>
+   <Universe>0</Universe>
+   <Address>119</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>MAC Aura</Model>
+   <Mode>Standard Mode</Mode>
+   <ID>7</ID>
+   <Name>MAC Aura #2</Name>
+   <Universe>0</Universe>
+   <Address>139</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>MAC Aura</Model>
+   <Mode>Standard Mode</Mode>
+   <ID>8</ID>
+   <Name>MAC Aura #3</Name>
+   <Universe>0</Universe>
+   <Address>159</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>MAC Aura</Model>
+   <Mode>Standard Mode</Mode>
+   <ID>9</ID>
+   <Name>MAC Aura #4</Name>
+   <Universe>0</Universe>
+   <Address>179</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>Q7</Model>
+   <Mode>9CH</Mode>
+   <ID>10</ID>
+   <Name>Q7 #1</Name>
+   <Universe>0</Universe>
+   <Address>199</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LEAM</Manufacturer>
+   <Model>Q7</Model>
+   <Mode>9CH</Mode>
+   <ID>11</ID>
+   <Name>Q7 #2</Name>
+   <Universe>0</Universe>
+   <Address>209</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>beam</Name>
+   <Size X="6" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="0" Fixture="3">0</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+   <Head X="5" Y="0" Fixture="5">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>wash</Name>
+   <Size X="4" Y="1"/>
+   <Head X="0" Y="0" Fixture="6">0</Head>
+   <Head X="1" Y="0" Fixture="7">0</Head>
+   <Head X="2" Y="0" Fixture="8">0</Head>
+   <Head X="3" Y="0" Fixture="9">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>all</Name>
+   <Size X="10" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="0" Fixture="3">0</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+   <Head X="5" Y="0" Fixture="5">0</Head>
+   <Head X="6" Y="0" Fixture="6">0</Head>
+   <Head X="7" Y="0" Fixture="7">0</Head>
+   <Head X="8" Y="0" Fixture="8">0</Head>
+   <Head X="9" Y="0" Fixture="9">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>Q7</Name>
+   <Size X="2" Y="1"/>
+   <Head X="0" Y="0" Fixture="10">0</Head>
+   <Head X="1" Y="0" Fixture="11">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="Scene" Name="MAC Aura - Nero - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="7">9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="8">9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="9">9,0,10,0,11,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="RGBMatrix" Name="beam fisse">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4294967295</MonoColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="2" Type="Scene" Name="MAC Aura - Blu - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,0,10,0,11,255</FixtureVal>
+   <FixtureVal ID="7">9,0,10,0,11,255</FixtureVal>
+   <FixtureVal ID="8">9,0,10,0,11,255</FixtureVal>
+   <FixtureVal ID="9">9,0,10,0,11,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="RGBMatrix" Name="beam stripes">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="4" Type="RGBMatrix" Name="beam fill">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="5" Type="Scene" Name="MAC Aura - Verde - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,0,10,255,11,0</FixtureVal>
+   <FixtureVal ID="7">9,0,10,255,11,0</FixtureVal>
+   <FixtureVal ID="8">9,0,10,255,11,0</FixtureVal>
+   <FixtureVal ID="9">9,0,10,255,11,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="MAC Aura - Ciano - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,0,10,255,11,255</FixtureVal>
+   <FixtureVal ID="7">9,0,10,255,11,255</FixtureVal>
+   <FixtureVal ID="8">9,0,10,255,11,255</FixtureVal>
+   <FixtureVal ID="9">9,0,10,255,11,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="RGBMatrix" Name="beam metà">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="8" Type="RGBMatrix" Name="beam random">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="9" Type="RGBMatrix" Name="wash fisse">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="10" Type="RGBMatrix" Name="wash fill">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="11" Type="Scene" Name="MAC Aura - ARANCIO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255,10,95,11,0</FixtureVal>
+   <FixtureVal ID="7">9,255,10,95,11,0</FixtureVal>
+   <FixtureVal ID="8">9,255,10,95,11,0</FixtureVal>
+   <FixtureVal ID="9">9,255,10,95,11,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="MAC Aura - Rosso - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255,10,0,11,0</FixtureVal>
+   <FixtureVal ID="7">9,255,10,0,11,0</FixtureVal>
+   <FixtureVal ID="8">9,255,10,0,11,0</FixtureVal>
+   <FixtureVal ID="9">9,255,10,0,11,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="MAC Aura - Magenta - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255,10,0,11,255</FixtureVal>
+   <FixtureVal ID="7">9,255,10,0,11,255</FixtureVal>
+   <FixtureVal ID="8">9,255,10,0,11,255</FixtureVal>
+   <FixtureVal ID="9">9,255,10,0,11,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="MAC Aura - Giallo - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255,10,255,11,0</FixtureVal>
+   <FixtureVal ID="7">9,255,10,255,11,0</FixtureVal>
+   <FixtureVal ID="8">9,255,10,255,11,0</FixtureVal>
+   <FixtureVal ID="9">9,255,10,255,11,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="MAC Aura - Bianco - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255,10,255,11,255</FixtureVal>
+   <FixtureVal ID="7">9,255,10,255,11,255</FixtureVal>
+   <FixtureVal ID="8">9,255,10,255,11,255</FixtureVal>
+   <FixtureVal ID="9">9,255,10,255,11,255</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Chaser" Name="Chaser 16 Colori - MAC Aura">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+  </Function>
+  <Function ID="17" Type="Scene" Name="Xperior16R BSWII - Color wheel - white">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,1</FixtureVal>
+   <FixtureVal ID="5">6,1</FixtureVal>
+   <FixtureVal ID="2">6,1</FixtureVal>
+   <FixtureVal ID="3">6,1</FixtureVal>
+   <FixtureVal ID="0">6,1</FixtureVal>
+   <FixtureVal ID="1">6,1</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="Xperior16R BSWII - Color wheel - 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,3</FixtureVal>
+   <FixtureVal ID="5">6,3</FixtureVal>
+   <FixtureVal ID="2">6,3</FixtureVal>
+   <FixtureVal ID="3">6,3</FixtureVal>
+   <FixtureVal ID="0">6,3</FixtureVal>
+   <FixtureVal ID="1">6,3</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="Xperior16R BSWII - Color wheel - 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,5</FixtureVal>
+   <FixtureVal ID="5">6,5</FixtureVal>
+   <FixtureVal ID="2">6,5</FixtureVal>
+   <FixtureVal ID="3">6,5</FixtureVal>
+   <FixtureVal ID="0">6,5</FixtureVal>
+   <FixtureVal ID="1">6,5</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="Xperior16R BSWII - Color wheel - 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,7</FixtureVal>
+   <FixtureVal ID="5">6,7</FixtureVal>
+   <FixtureVal ID="2">6,7</FixtureVal>
+   <FixtureVal ID="3">6,7</FixtureVal>
+   <FixtureVal ID="0">6,7</FixtureVal>
+   <FixtureVal ID="1">6,7</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Xperior16R BSWII - Color wheel - 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,9</FixtureVal>
+   <FixtureVal ID="5">6,9</FixtureVal>
+   <FixtureVal ID="2">6,9</FixtureVal>
+   <FixtureVal ID="3">6,9</FixtureVal>
+   <FixtureVal ID="0">6,9</FixtureVal>
+   <FixtureVal ID="1">6,9</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="Xperior16R BSWII - Color wheel - 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,11</FixtureVal>
+   <FixtureVal ID="5">6,11</FixtureVal>
+   <FixtureVal ID="2">6,11</FixtureVal>
+   <FixtureVal ID="3">6,11</FixtureVal>
+   <FixtureVal ID="0">6,11</FixtureVal>
+   <FixtureVal ID="1">6,11</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="Xperior16R BSWII - Color wheel - 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,13</FixtureVal>
+   <FixtureVal ID="5">6,13</FixtureVal>
+   <FixtureVal ID="2">6,13</FixtureVal>
+   <FixtureVal ID="3">6,13</FixtureVal>
+   <FixtureVal ID="0">6,13</FixtureVal>
+   <FixtureVal ID="1">6,13</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Xperior16R BSWII - Color wheel - 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,15</FixtureVal>
+   <FixtureVal ID="5">6,15</FixtureVal>
+   <FixtureVal ID="2">6,15</FixtureVal>
+   <FixtureVal ID="3">6,15</FixtureVal>
+   <FixtureVal ID="0">6,15</FixtureVal>
+   <FixtureVal ID="1">6,15</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Xperior16R BSWII - Color wheel - 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,17</FixtureVal>
+   <FixtureVal ID="5">6,17</FixtureVal>
+   <FixtureVal ID="2">6,17</FixtureVal>
+   <FixtureVal ID="3">6,17</FixtureVal>
+   <FixtureVal ID="0">6,17</FixtureVal>
+   <FixtureVal ID="1">6,17</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="Xperior16R BSWII - Color wheel - 9">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,20</FixtureVal>
+   <FixtureVal ID="5">6,20</FixtureVal>
+   <FixtureVal ID="2">6,20</FixtureVal>
+   <FixtureVal ID="3">6,20</FixtureVal>
+   <FixtureVal ID="0">6,20</FixtureVal>
+   <FixtureVal ID="1">6,20</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Xperior16R BSWII - Color wheel - 10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,22</FixtureVal>
+   <FixtureVal ID="5">6,22</FixtureVal>
+   <FixtureVal ID="2">6,22</FixtureVal>
+   <FixtureVal ID="3">6,22</FixtureVal>
+   <FixtureVal ID="0">6,22</FixtureVal>
+   <FixtureVal ID="1">6,22</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Xperior16R BSWII - Color wheel - 11">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,24</FixtureVal>
+   <FixtureVal ID="5">6,24</FixtureVal>
+   <FixtureVal ID="2">6,24</FixtureVal>
+   <FixtureVal ID="3">6,24</FixtureVal>
+   <FixtureVal ID="0">6,24</FixtureVal>
+   <FixtureVal ID="1">6,24</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="Xperior16R BSWII - Color wheel - 12">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,26</FixtureVal>
+   <FixtureVal ID="5">6,26</FixtureVal>
+   <FixtureVal ID="2">6,26</FixtureVal>
+   <FixtureVal ID="3">6,26</FixtureVal>
+   <FixtureVal ID="0">6,26</FixtureVal>
+   <FixtureVal ID="1">6,26</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="Xperior16R BSWII - Color wheel - 13">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,28</FixtureVal>
+   <FixtureVal ID="5">6,28</FixtureVal>
+   <FixtureVal ID="2">6,28</FixtureVal>
+   <FixtureVal ID="3">6,28</FixtureVal>
+   <FixtureVal ID="0">6,28</FixtureVal>
+   <FixtureVal ID="1">6,28</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="Xperior16R BSWII - Color wheel - 14">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,30</FixtureVal>
+   <FixtureVal ID="5">6,30</FixtureVal>
+   <FixtureVal ID="2">6,30</FixtureVal>
+   <FixtureVal ID="3">6,30</FixtureVal>
+   <FixtureVal ID="0">6,30</FixtureVal>
+   <FixtureVal ID="1">6,30</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Xperior16R BSWII - Color wheel - 15">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,32</FixtureVal>
+   <FixtureVal ID="5">6,32</FixtureVal>
+   <FixtureVal ID="2">6,32</FixtureVal>
+   <FixtureVal ID="3">6,32</FixtureVal>
+   <FixtureVal ID="0">6,32</FixtureVal>
+   <FixtureVal ID="1">6,32</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Xperior16R BSWII - Color wheel - 16">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,34</FixtureVal>
+   <FixtureVal ID="5">6,34</FixtureVal>
+   <FixtureVal ID="2">6,34</FixtureVal>
+   <FixtureVal ID="3">6,34</FixtureVal>
+   <FixtureVal ID="0">6,34</FixtureVal>
+   <FixtureVal ID="1">6,34</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Xperior16R BSWII - Color wheel - 17">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,36</FixtureVal>
+   <FixtureVal ID="5">6,36</FixtureVal>
+   <FixtureVal ID="2">6,36</FixtureVal>
+   <FixtureVal ID="3">6,36</FixtureVal>
+   <FixtureVal ID="0">6,36</FixtureVal>
+   <FixtureVal ID="1">6,36</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Xperior16R BSWII - Color wheel - 18">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,38</FixtureVal>
+   <FixtureVal ID="5">6,38</FixtureVal>
+   <FixtureVal ID="2">6,38</FixtureVal>
+   <FixtureVal ID="3">6,38</FixtureVal>
+   <FixtureVal ID="0">6,38</FixtureVal>
+   <FixtureVal ID="1">6,38</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Xperior16R BSWII - Color wheel - 19">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,41</FixtureVal>
+   <FixtureVal ID="5">6,41</FixtureVal>
+   <FixtureVal ID="2">6,41</FixtureVal>
+   <FixtureVal ID="3">6,41</FixtureVal>
+   <FixtureVal ID="0">6,41</FixtureVal>
+   <FixtureVal ID="1">6,41</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Xperior16R BSWII - Color wheel - 20">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,43</FixtureVal>
+   <FixtureVal ID="5">6,43</FixtureVal>
+   <FixtureVal ID="2">6,43</FixtureVal>
+   <FixtureVal ID="3">6,43</FixtureVal>
+   <FixtureVal ID="0">6,43</FixtureVal>
+   <FixtureVal ID="1">6,43</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="Xperior16R BSWII - Color wheel - 21">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,45</FixtureVal>
+   <FixtureVal ID="5">6,45</FixtureVal>
+   <FixtureVal ID="2">6,45</FixtureVal>
+   <FixtureVal ID="3">6,45</FixtureVal>
+   <FixtureVal ID="0">6,45</FixtureVal>
+   <FixtureVal ID="1">6,45</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="Xperior16R BSWII - Color wheel - 22">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,47</FixtureVal>
+   <FixtureVal ID="5">6,47</FixtureVal>
+   <FixtureVal ID="2">6,47</FixtureVal>
+   <FixtureVal ID="3">6,47</FixtureVal>
+   <FixtureVal ID="0">6,47</FixtureVal>
+   <FixtureVal ID="1">6,47</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="Xperior16R BSWII - Color wheel - 23">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,49</FixtureVal>
+   <FixtureVal ID="5">6,49</FixtureVal>
+   <FixtureVal ID="2">6,49</FixtureVal>
+   <FixtureVal ID="3">6,49</FixtureVal>
+   <FixtureVal ID="0">6,49</FixtureVal>
+   <FixtureVal ID="1">6,49</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="Xperior16R BSWII - Color wheel - 24">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,51</FixtureVal>
+   <FixtureVal ID="5">6,51</FixtureVal>
+   <FixtureVal ID="2">6,51</FixtureVal>
+   <FixtureVal ID="3">6,51</FixtureVal>
+   <FixtureVal ID="0">6,51</FixtureVal>
+   <FixtureVal ID="1">6,51</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="Xperior16R BSWII - Color wheel - 25">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,53</FixtureVal>
+   <FixtureVal ID="5">6,53</FixtureVal>
+   <FixtureVal ID="2">6,53</FixtureVal>
+   <FixtureVal ID="3">6,53</FixtureVal>
+   <FixtureVal ID="0">6,53</FixtureVal>
+   <FixtureVal ID="1">6,53</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="Xperior16R BSWII - Color wheel - Color26">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,55</FixtureVal>
+   <FixtureVal ID="5">6,55</FixtureVal>
+   <FixtureVal ID="2">6,55</FixtureVal>
+   <FixtureVal ID="3">6,55</FixtureVal>
+   <FixtureVal ID="0">6,55</FixtureVal>
+   <FixtureVal ID="1">6,55</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="Xperior16R BSWII - Color wheel - Color27">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,57</FixtureVal>
+   <FixtureVal ID="5">6,57</FixtureVal>
+   <FixtureVal ID="2">6,57</FixtureVal>
+   <FixtureVal ID="3">6,57</FixtureVal>
+   <FixtureVal ID="0">6,57</FixtureVal>
+   <FixtureVal ID="1">6,57</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Xperior16R BSWII - Color wheel - Color28">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,59</FixtureVal>
+   <FixtureVal ID="5">6,59</FixtureVal>
+   <FixtureVal ID="2">6,59</FixtureVal>
+   <FixtureVal ID="3">6,59</FixtureVal>
+   <FixtureVal ID="0">6,59</FixtureVal>
+   <FixtureVal ID="1">6,59</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="Xperior16R BSWII - Color wheel - Color 29">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,62</FixtureVal>
+   <FixtureVal ID="5">6,62</FixtureVal>
+   <FixtureVal ID="2">6,62</FixtureVal>
+   <FixtureVal ID="3">6,62</FixtureVal>
+   <FixtureVal ID="0">6,62</FixtureVal>
+   <FixtureVal ID="1">6,62</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="Xperior16R BSWII - Color wheel - Color wheel indexing">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,95</FixtureVal>
+   <FixtureVal ID="5">6,95</FixtureVal>
+   <FixtureVal ID="2">6,95</FixtureVal>
+   <FixtureVal ID="3">6,95</FixtureVal>
+   <FixtureVal ID="0">6,95</FixtureVal>
+   <FixtureVal ID="1">6,95</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="Xperior16R BSWII - Color wheel - Counter-Clockwise rotation, fast  slow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,158</FixtureVal>
+   <FixtureVal ID="5">6,158</FixtureVal>
+   <FixtureVal ID="2">6,158</FixtureVal>
+   <FixtureVal ID="3">6,158</FixtureVal>
+   <FixtureVal ID="0">6,158</FixtureVal>
+   <FixtureVal ID="1">6,158</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="Xperior16R BSWII - Color wheel - stop">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,191</FixtureVal>
+   <FixtureVal ID="5">6,191</FixtureVal>
+   <FixtureVal ID="2">6,191</FixtureVal>
+   <FixtureVal ID="3">6,191</FixtureVal>
+   <FixtureVal ID="0">6,191</FixtureVal>
+   <FixtureVal ID="1">6,191</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="Xperior16R BSWII - Color wheel - Clockwise rotation, slow  fast">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,224</FixtureVal>
+   <FixtureVal ID="5">6,224</FixtureVal>
+   <FixtureVal ID="2">6,224</FixtureVal>
+   <FixtureVal ID="3">6,224</FixtureVal>
+   <FixtureVal ID="0">6,224</FixtureVal>
+   <FixtureVal ID="1">6,224</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Chaser" Name="Chaser Macro colori - Xperior16R BSWII">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">49</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">50</Step>
+  </Function>
+  <Function ID="52" Type="Scene" Name="Xperior16R BSWII - gobo2 rotation - Index">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">9,63</FixtureVal>
+   <FixtureVal ID="5">9,63</FixtureVal>
+   <FixtureVal ID="2">9,63</FixtureVal>
+   <FixtureVal ID="3">9,63</FixtureVal>
+   <FixtureVal ID="0">9,63</FixtureVal>
+   <FixtureVal ID="1">9,63</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="Xperior16R BSWII - gobo2 rotation - Clockwise rotation, fast  slow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">9,158</FixtureVal>
+   <FixtureVal ID="5">9,158</FixtureVal>
+   <FixtureVal ID="2">9,158</FixtureVal>
+   <FixtureVal ID="3">9,158</FixtureVal>
+   <FixtureVal ID="0">9,158</FixtureVal>
+   <FixtureVal ID="1">9,158</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="Xperior16R BSWII - gobo2 rotation - Stop">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">9,191</FixtureVal>
+   <FixtureVal ID="5">9,191</FixtureVal>
+   <FixtureVal ID="2">9,191</FixtureVal>
+   <FixtureVal ID="3">9,191</FixtureVal>
+   <FixtureVal ID="0">9,191</FixtureVal>
+   <FixtureVal ID="1">9,191</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="Xperior16R BSWII - gobo2 rotation - Counter-clockwise rotation, slow  fast">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">9,224</FixtureVal>
+   <FixtureVal ID="5">9,224</FixtureVal>
+   <FixtureVal ID="2">9,224</FixtureVal>
+   <FixtureVal ID="3">9,224</FixtureVal>
+   <FixtureVal ID="0">9,224</FixtureVal>
+   <FixtureVal ID="1">9,224</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Chaser" Name="Chaser Macro dei gobo - Xperior16R BSWII">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">52</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">53</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+  </Function>
+  <Function ID="57" Type="Scene" Name="SHUTTER OPEN">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">17,255</FixtureVal>
+   <FixtureVal ID="1">17,255</FixtureVal>
+   <FixtureVal ID="2">17,255</FixtureVal>
+   <FixtureVal ID="3">17,255</FixtureVal>
+   <FixtureVal ID="4">17,255</FixtureVal>
+   <FixtureVal ID="5">17,255</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="SHUTTER CLOSE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">17,0</FixtureVal>
+   <FixtureVal ID="1">17,0</FixtureVal>
+   <FixtureVal ID="2">17,0</FixtureVal>
+   <FixtureVal ID="3">17,0</FixtureVal>
+   <FixtureVal ID="4">17,0</FixtureVal>
+   <FixtureVal ID="5">17,0</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="STROBE RANDOM">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">17,241</FixtureVal>
+   <FixtureVal ID="1">17,241</FixtureVal>
+   <FixtureVal ID="2">17,241</FixtureVal>
+   <FixtureVal ID="3">17,241</FixtureVal>
+   <FixtureVal ID="4">17,241</FixtureVal>
+   <FixtureVal ID="5">17,241</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="STROBO FAST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">17,110</FixtureVal>
+   <FixtureVal ID="1">17,110</FixtureVal>
+   <FixtureVal ID="2">17,110</FixtureVal>
+   <FixtureVal ID="3">17,110</FixtureVal>
+   <FixtureVal ID="4">17,110</FixtureVal>
+   <FixtureVal ID="5">17,110</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="PRISMA ON">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,255</FixtureVal>
+   <FixtureVal ID="1">10,255</FixtureVal>
+   <FixtureVal ID="2">10,255</FixtureVal>
+   <FixtureVal ID="3">10,255</FixtureVal>
+   <FixtureVal ID="4">10,255</FixtureVal>
+   <FixtureVal ID="5">10,255</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Scene" Name="PRISMA OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,0</FixtureVal>
+   <FixtureVal ID="1">10,0</FixtureVal>
+   <FixtureVal ID="2">10,0</FixtureVal>
+   <FixtureVal ID="3">10,0</FixtureVal>
+   <FixtureVal ID="4">10,0</FixtureVal>
+   <FixtureVal ID="5">10,0</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="PRISMA ROT">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,255,11,235</FixtureVal>
+   <FixtureVal ID="1">10,0</FixtureVal>
+   <FixtureVal ID="2">10,0</FixtureVal>
+   <FixtureVal ID="3">10,0</FixtureVal>
+   <FixtureVal ID="4">10,0</FixtureVal>
+   <FixtureVal ID="5">10,0</FixtureVal>
+  </Function>
+  <Function ID="64" Type="EFX" Name="BEAM PALCO">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>193</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="65" Type="RGBMatrix" Name="wash random">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="66" Type="RGBMatrix" Name="wash metà">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="67" Type="RGBMatrix" Name="wash stripes">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="68" Type="RGBMatrix" Name="all random ">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Single</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>2</FixtureGroup>
+  </Function>
+  <Function ID="69" Type="RGBMatrix" Name="all metà">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>2</FixtureGroup>
+  </Function>
+  <Function ID="70" Type="Scene" Name="WASH SHUTTER OPEN">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,13,0</FixtureVal>
+   <FixtureVal ID="7">0,255,13,0</FixtureVal>
+   <FixtureVal ID="8">0,255,13,0</FixtureVal>
+   <FixtureVal ID="9">0,255,13,0</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="STROBO FAST ALL">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">17,110</FixtureVal>
+   <FixtureVal ID="1">17,110</FixtureVal>
+   <FixtureVal ID="2">17,110</FixtureVal>
+   <FixtureVal ID="3">17,110</FixtureVal>
+   <FixtureVal ID="4">17,110</FixtureVal>
+   <FixtureVal ID="5">17,110</FixtureVal>
+   <FixtureVal ID="6">0,157</FixtureVal>
+   <FixtureVal ID="7">0,157</FixtureVal>
+   <FixtureVal ID="8">0,157</FixtureVal>
+   <FixtureVal ID="9">0,157</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="WASH SHUTTER CLOSE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,0,13,0</FixtureVal>
+   <FixtureVal ID="7">0,0,13,0</FixtureVal>
+   <FixtureVal ID="8">0,0,13,0</FixtureVal>
+   <FixtureVal ID="9">0,0,13,0</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="WASH STROBO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,132,13,0</FixtureVal>
+   <FixtureVal ID="7">0,132,13,0</FixtureVal>
+   <FixtureVal ID="8">0,132,13,0</FixtureVal>
+   <FixtureVal ID="9">0,132,13,0</FixtureVal>
+  </Function>
+  <Function ID="74" Type="EFX" Name="BEAM PALCO SU GIU">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>193</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="75" Type="EFX" Name="BEAM PALCO SX DX">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>193</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="76" Type="EFX" Name="BEAM TORRI">
+   <Fixture>
+    <ID>4</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>209</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="77" Type="EFX" Name="BEAM TORRI SX DX">
+   <Fixture>
+    <ID>4</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>209</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="78" Type="EFX" Name="BEAM TORRI SU GIU">
+   <Fixture>
+    <ID>4</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>209</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="79" Type="EFX" Name="WASH">
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>7</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>174</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="80" Type="EFX" Name="WASH PISTA">
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>7</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>195</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="81" Type="EFX" Name="WASH PALCO">
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>7</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>84</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>105</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="82" Type="RGBMatrix" Name="WASH">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="83" Type="RGBMatrix" Name="Q7">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <EndColor>4294967295</EndColor>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>3</FixtureGroup>
+  </Function>
+  <Function ID="84" Type="Scene" Name="Q7 - Nero - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="Q7 - Blu - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Q7 - Verde - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="Q7 - Ciano - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="Q7 -ARANCIO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,79,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,79,2,0</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="Q7 - Rosso - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="Q7 - Magenta - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="Q7 - Giallo - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="Q7 - Bianco - Scena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Chaser" Name="Chaser 16 Colori - Q7">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">84</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">99</Step>
+  </Function>
+  <Function ID="101" Type="Scene" Name="MAC Aura - Beam color wheel effect - Open. RGBW color mixing enabled">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,4</FixtureVal>
+   <FixtureVal ID="9">8,4</FixtureVal>
+   <FixtureVal ID="6">8,4</FixtureVal>
+   <FixtureVal ID="7">8,4</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 790 - Moroccan pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,12</FixtureVal>
+   <FixtureVal ID="9">8,12</FixtureVal>
+   <FixtureVal ID="6">8,12</FixtureVal>
+   <FixtureVal ID="7">8,12</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 157 - Pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,17</FixtureVal>
+   <FixtureVal ID="9">8,17</FixtureVal>
+   <FixtureVal ID="6">8,17</FixtureVal>
+   <FixtureVal ID="7">8,17</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 332 - Special rose pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,22</FixtureVal>
+   <FixtureVal ID="9">8,22</FixtureVal>
+   <FixtureVal ID="6">8,22</FixtureVal>
+   <FixtureVal ID="7">8,22</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 328 - Follies pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,27</FixtureVal>
+   <FixtureVal ID="9">8,27</FixtureVal>
+   <FixtureVal ID="6">8,27</FixtureVal>
+   <FixtureVal ID="7">8,27</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 345 - Fuchsia pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,32</FixtureVal>
+   <FixtureVal ID="9">8,32</FixtureVal>
+   <FixtureVal ID="6">8,32</FixtureVal>
+   <FixtureVal ID="7">8,32</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 194 - Surprise pink">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,37</FixtureVal>
+   <FixtureVal ID="9">8,37</FixtureVal>
+   <FixtureVal ID="6">8,37</FixtureVal>
+   <FixtureVal ID="7">8,37</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 181 - Congo Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,42</FixtureVal>
+   <FixtureVal ID="9">8,42</FixtureVal>
+   <FixtureVal ID="6">8,42</FixtureVal>
+   <FixtureVal ID="7">8,42</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 071 - Tokyo Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,47</FixtureVal>
+   <FixtureVal ID="9">8,47</FixtureVal>
+   <FixtureVal ID="6">8,47</FixtureVal>
+   <FixtureVal ID="7">8,47</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 120 - Deep Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,52</FixtureVal>
+   <FixtureVal ID="9">8,52</FixtureVal>
+   <FixtureVal ID="6">8,52</FixtureVal>
+   <FixtureVal ID="7">8,52</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 079 - Just Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,57</FixtureVal>
+   <FixtureVal ID="9">8,57</FixtureVal>
+   <FixtureVal ID="6">8,57</FixtureVal>
+   <FixtureVal ID="7">8,57</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 132 - Medium Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,62</FixtureVal>
+   <FixtureVal ID="9">8,62</FixtureVal>
+   <FixtureVal ID="6">8,62</FixtureVal>
+   <FixtureVal ID="7">8,62</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 200 - Double CT Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,67</FixtureVal>
+   <FixtureVal ID="9">8,67</FixtureVal>
+   <FixtureVal ID="6">8,67</FixtureVal>
+   <FixtureVal ID="7">8,67</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 161 - Slate Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,72</FixtureVal>
+   <FixtureVal ID="9">8,72</FixtureVal>
+   <FixtureVal ID="6">8,72</FixtureVal>
+   <FixtureVal ID="7">8,72</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 201 - Full CT Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,77</FixtureVal>
+   <FixtureVal ID="9">8,77</FixtureVal>
+   <FixtureVal ID="6">8,77</FixtureVal>
+   <FixtureVal ID="7">8,77</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 202 - Half CT Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,82</FixtureVal>
+   <FixtureVal ID="9">8,82</FixtureVal>
+   <FixtureVal ID="6">8,82</FixtureVal>
+   <FixtureVal ID="7">8,82</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 117 - Steel Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,87</FixtureVal>
+   <FixtureVal ID="9">8,87</FixtureVal>
+   <FixtureVal ID="6">8,87</FixtureVal>
+   <FixtureVal ID="7">8,87</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 353 - Lighter Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,92</FixtureVal>
+   <FixtureVal ID="9">8,92</FixtureVal>
+   <FixtureVal ID="6">8,92</FixtureVal>
+   <FixtureVal ID="7">8,92</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 118 - Light Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,97</FixtureVal>
+   <FixtureVal ID="9">8,97</FixtureVal>
+   <FixtureVal ID="6">8,97</FixtureVal>
+   <FixtureVal ID="7">8,97</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 116 - Medium Blue Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,102</FixtureVal>
+   <FixtureVal ID="9">8,102</FixtureVal>
+   <FixtureVal ID="6">8,102</FixtureVal>
+   <FixtureVal ID="7">8,102</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 124 - Dark Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,107</FixtureVal>
+   <FixtureVal ID="9">8,107</FixtureVal>
+   <FixtureVal ID="6">8,107</FixtureVal>
+   <FixtureVal ID="7">8,107</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 139 - Primary Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,112</FixtureVal>
+   <FixtureVal ID="9">8,112</FixtureVal>
+   <FixtureVal ID="6">8,112</FixtureVal>
+   <FixtureVal ID="7">8,112</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 089 - Moss Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,117</FixtureVal>
+   <FixtureVal ID="9">8,117</FixtureVal>
+   <FixtureVal ID="6">8,117</FixtureVal>
+   <FixtureVal ID="7">8,117</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 122 - Fern Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,122</FixtureVal>
+   <FixtureVal ID="9">8,122</FixtureVal>
+   <FixtureVal ID="6">8,122</FixtureVal>
+   <FixtureVal ID="7">8,122</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 738 - JAS Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,127</FixtureVal>
+   <FixtureVal ID="9">8,127</FixtureVal>
+   <FixtureVal ID="6">8,127</FixtureVal>
+   <FixtureVal ID="7">8,127</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 088 - Lime Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,132</FixtureVal>
+   <FixtureVal ID="9">8,132</FixtureVal>
+   <FixtureVal ID="6">8,132</FixtureVal>
+   <FixtureVal ID="7">8,132</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 100 - Spring Yellow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,137</FixtureVal>
+   <FixtureVal ID="9">8,137</FixtureVal>
+   <FixtureVal ID="6">8,137</FixtureVal>
+   <FixtureVal ID="7">8,137</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 104 - Deep Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,142</FixtureVal>
+   <FixtureVal ID="9">8,142</FixtureVal>
+   <FixtureVal ID="6">8,142</FixtureVal>
+   <FixtureVal ID="7">8,142</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 179 - Chrome Orange">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,147</FixtureVal>
+   <FixtureVal ID="9">8,147</FixtureVal>
+   <FixtureVal ID="6">8,147</FixtureVal>
+   <FixtureVal ID="7">8,147</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 105 - Orange">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,152</FixtureVal>
+   <FixtureVal ID="9">8,152</FixtureVal>
+   <FixtureVal ID="6">8,152</FixtureVal>
+   <FixtureVal ID="7">8,152</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 021 - Gold Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,157</FixtureVal>
+   <FixtureVal ID="9">8,157</FixtureVal>
+   <FixtureVal ID="6">8,157</FixtureVal>
+   <FixtureVal ID="7">8,157</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 778 - Millennium Gold">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,162</FixtureVal>
+   <FixtureVal ID="9">8,162</FixtureVal>
+   <FixtureVal ID="6">8,162</FixtureVal>
+   <FixtureVal ID="7">8,162</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 135 - Deep Golden Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,167</FixtureVal>
+   <FixtureVal ID="9">8,167</FixtureVal>
+   <FixtureVal ID="6">8,167</FixtureVal>
+   <FixtureVal ID="7">8,167</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="MAC Aura - Beam color wheel effect - LEE 164 - Flame Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,172</FixtureVal>
+   <FixtureVal ID="9">8,172</FixtureVal>
+   <FixtureVal ID="6">8,172</FixtureVal>
+   <FixtureVal ID="7">8,172</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Scene" Name="MAC Aura - Beam color wheel effect - Open">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,177</FixtureVal>
+   <FixtureVal ID="9">8,177</FixtureVal>
+   <FixtureVal ID="6">8,177</FixtureVal>
+   <FixtureVal ID="7">8,177</FixtureVal>
+  </Function>
+  <Function ID="136" Type="Scene" Name="MAC Aura - Beam color wheel effect - Color rotation fast → slow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,190</FixtureVal>
+   <FixtureVal ID="9">8,190</FixtureVal>
+   <FixtureVal ID="6">8,190</FixtureVal>
+   <FixtureVal ID="7">8,190</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Scene" Name="MAC Aura - Beam color wheel effect - Stop Rot">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,204</FixtureVal>
+   <FixtureVal ID="9">8,204</FixtureVal>
+   <FixtureVal ID="6">8,204</FixtureVal>
+   <FixtureVal ID="7">8,204</FixtureVal>
+  </Function>
+  <Function ID="138" Type="Scene" Name="MAC Aura - Beam color wheel effect - Color rotation slow → fast">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,218</FixtureVal>
+   <FixtureVal ID="9">8,218</FixtureVal>
+   <FixtureVal ID="6">8,218</FixtureVal>
+   <FixtureVal ID="7">8,218</FixtureVal>
+  </Function>
+  <Function ID="139" Type="Scene" Name="MAC Aura - Beam color wheel effect - Random color Fast">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,237</FixtureVal>
+   <FixtureVal ID="9">8,237</FixtureVal>
+   <FixtureVal ID="6">8,237</FixtureVal>
+   <FixtureVal ID="7">8,237</FixtureVal>
+  </Function>
+  <Function ID="140" Type="Scene" Name="MAC Aura - Beam color wheel effect - Random color Medium">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,242</FixtureVal>
+   <FixtureVal ID="9">8,242</FixtureVal>
+   <FixtureVal ID="6">8,242</FixtureVal>
+   <FixtureVal ID="7">8,242</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Scene" Name="MAC Aura - Beam color wheel effect - Random color Slow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">8,247</FixtureVal>
+   <FixtureVal ID="9">8,247</FixtureVal>
+   <FixtureVal ID="6">8,247</FixtureVal>
+   <FixtureVal ID="7">8,247</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Chaser" Name="Chaser Macro colori - MAC Aura">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">102</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">103</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">104</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">114</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">115</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">116</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">117</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">118</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">119</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">120</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">122</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">128</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">129</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">131</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">132</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">134</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">135</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">136</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">137</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">140</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">141</Step>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="COLORI" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="5" Y="10" Width="485" Height="505"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="WASH" ID="1">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="465" Height="100"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="MAC Aura - Nero - Scena" ID="2" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="0"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Blu - Scena" ID="4" Icon="">
+      <WindowState Visible="True" X="160" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="2"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Verde - Scena" ID="7" Icon="">
+      <WindowState Visible="True" X="110" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="5"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Ciano - Scena" ID="8" Icon="">
+      <WindowState Visible="True" X="210" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="6"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - arancio" ID="13" Icon="">
+      <WindowState Visible="True" X="360" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290822336</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="11"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Rosso - Scena" ID="14" Icon="">
+      <WindowState Visible="True" X="60" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="12"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Magenta - Scena" ID="15" Icon="">
+      <WindowState Visible="True" X="260" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294902015</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="13"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Giallo - Scena" ID="16" Icon="">
+      <WindowState Visible="True" X="310" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="14"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Bianco - Scena" ID="17" Icon="">
+      <WindowState Visible="True" X="410" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="15"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="BEAM" ID="94">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="140" Width="465" Height="245"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Xperior16R BSWII - Color wheel - white" ID="60" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="17"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 1" ID="61" Icon="">
+      <WindowState Visible="True" X="60" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="18"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 2" ID="62" Icon="">
+      <WindowState Visible="True" X="110" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="19"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 3" ID="63" Icon="">
+      <WindowState Visible="True" X="160" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="20"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 4" ID="64" Icon="">
+      <WindowState Visible="True" X="210" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="21"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 5" ID="65" Icon="">
+      <WindowState Visible="True" X="260" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="22"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 6" ID="66" Icon="">
+      <WindowState Visible="True" X="310" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="23"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 7" ID="67" Icon="">
+      <WindowState Visible="True" X="360" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="24"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 8" ID="68" Icon="">
+      <WindowState Visible="True" X="410" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 9" ID="69" Icon="">
+      <WindowState Visible="True" X="10" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="26"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 10" ID="70" Icon="">
+      <WindowState Visible="True" X="60" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="27"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 11" ID="71" Icon="">
+      <WindowState Visible="True" X="110" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="28"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 12" ID="72" Icon="">
+      <WindowState Visible="True" X="160" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="29"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 13" ID="73" Icon="">
+      <WindowState Visible="True" X="210" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="30"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 14" ID="74" Icon="">
+      <WindowState Visible="True" X="260" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="31"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 15" ID="75" Icon="">
+      <WindowState Visible="True" X="310" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="32"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 16" ID="76" Icon="">
+      <WindowState Visible="True" X="360" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="33"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 17" ID="77" Icon="">
+      <WindowState Visible="True" X="410" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="34"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 18" ID="78" Icon="">
+      <WindowState Visible="True" X="10" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="35"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 19" ID="79" Icon="">
+      <WindowState Visible="True" X="60" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="36"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 20" ID="80" Icon="">
+      <WindowState Visible="True" X="110" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="37"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 21" ID="81" Icon="">
+      <WindowState Visible="True" X="160" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="38"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 22" ID="82" Icon="">
+      <WindowState Visible="True" X="210" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="39"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 23" ID="83" Icon="">
+      <WindowState Visible="True" X="260" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="40"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 24" ID="84" Icon="">
+      <WindowState Visible="True" X="310" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="41"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - 25" ID="85" Icon="">
+      <WindowState Visible="True" X="360" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="42"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - Color26" ID="86" Icon="">
+      <WindowState Visible="True" X="410" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="43"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - Color27" ID="87" Icon="">
+      <WindowState Visible="True" X="10" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="44"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - Color28" ID="88" Icon="">
+      <WindowState Visible="True" X="60" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="45"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Xperior16R BSWII - Color wheel - Color 29" ID="89" Icon="">
+      <WindowState Visible="True" X="110" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="46"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="Solo frame dei preset" ID="97">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="385" Width="465" Height="100"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Q7 - Nero - Scena" ID="57" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="84"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Blu - Scena" ID="58" Icon="">
+      <WindowState Visible="True" X="160" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="86"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Verde - Scena" ID="59" Icon="">
+      <WindowState Visible="True" X="110" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="89"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Ciano - Scena" ID="90" Icon="">
+      <WindowState Visible="True" X="210" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="90"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 -ARANCIO" ID="91" Icon="">
+      <WindowState Visible="True" X="360" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290822336</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="95"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Rosso - Scena" ID="92" Icon="">
+      <WindowState Visible="True" X="60" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="96"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Magenta - Scena" ID="93" Icon="">
+      <WindowState Visible="True" X="260" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294902015</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="97"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Giallo - Scena" ID="95" Icon="">
+      <WindowState Visible="True" X="310" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="98"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Q7 - Bianco - Scena" ID="96" Icon="">
+      <WindowState Visible="True" X="410" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="99"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+   </Frame>
+   <Frame Caption="" ID="3">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="490" Y="10" Width="495" Height="160"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Q7 TEMP" ID="5" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="250" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="10">8</Channel>
+      <Channel Fixture="11">8</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="SPEED" ID="6" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="190" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">4</Channel>
+      <Channel Fixture="1">4</Channel>
+      <Channel Fixture="2">4</Channel>
+      <Channel Fixture="3">4</Channel>
+      <Channel Fixture="4">4</Channel>
+      <Channel Fixture="5">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="FOCUS BEAM" ID="9" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="130" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">15</Channel>
+      <Channel Fixture="1">15</Channel>
+      <Channel Fixture="2">15</Channel>
+      <Channel Fixture="3">15</Channel>
+      <Channel Fixture="4">15</Channel>
+      <Channel Fixture="5">15</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="ZOOM WASH" ID="10" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="70" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">2</Channel>
+      <Channel Fixture="7">2</Channel>
+      <Channel Fixture="8">2</Channel>
+      <Channel Fixture="9">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="ZOOM BEAM" ID="11" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="10" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">14</Channel>
+      <Channel Fixture="1">14</Channel>
+      <Channel Fixture="2">14</Channel>
+      <Channel Fixture="3">14</Channel>
+      <Channel Fixture="4">14</Channel>
+      <Channel Fixture="5">14</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Manopola 12" ID="12" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="430" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Manopola 18" ID="18" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="370" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="WASH TEMP" ID="19" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="310" Y="45" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">13</Channel>
+      <Channel Fixture="7">13</Channel>
+      <Channel Fixture="8">13</Channel>
+      <Channel Fixture="9">13</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <XYPad Caption="XY Pad" ID="20" InvertedAppearance="0">
+    <WindowState Visible="True" X="790" Y="505" Width="300" Height="290"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="6" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="7" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="8" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="9" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="127"/>
+    <Tilt Position="131"/>
+    <Preset ID="20">
+     <Type>FixtureGroup</Type>
+     <Name>WASH</Name>
+     <Fixture ID="6" Head="0"/>
+     <Fixture ID="7" Head="0"/>
+     <Fixture ID="8" Head="0"/>
+     <Fixture ID="9" Head="0"/>
+    </Preset>
+    <Preset ID="21">
+     <Type>FixtureGroup</Type>
+     <Name>1</Name>
+     <Fixture ID="6" Head="0"/>
+    </Preset>
+    <Preset ID="22">
+     <Type>FixtureGroup</Type>
+     <Name>2</Name>
+     <Fixture ID="7" Head="0"/>
+    </Preset>
+    <Preset ID="23">
+     <Type>FixtureGroup</Type>
+     <Name>3</Name>
+     <Fixture ID="8" Head="0"/>
+    </Preset>
+    <Preset ID="24">
+     <Type>FixtureGroup</Type>
+     <Name>4</Name>
+     <Fixture ID="9" Head="0"/>
+    </Preset>
+   </XYPad>
+   <Frame Caption="EFFETTI" ID="21">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="490" Y="170" Width="495" Height="335"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="BEAM" ID="22">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="5" Y="40" Width="240" Height="285"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Frame Caption="" ID="23">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="True" X="10" Y="45" Width="160" Height="230"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="beam fill" ID="24" Icon="">
+       <WindowState Visible="True" X="10" Y="10" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="4"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="beam fisse" ID="25" Icon="">
+       <WindowState Visible="True" X="80" Y="10" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="1"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="beam metà" ID="26" Icon="">
+       <WindowState Visible="True" X="10" Y="80" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="7"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="beam random" ID="27" Icon="">
+       <WindowState Visible="True" X="80" Y="80" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="8"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="beam stripes" ID="28" Icon="">
+       <WindowState Visible="True" X="10" Y="150" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="3"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Pulsante 29" ID="29" Icon="">
+       <WindowState Visible="True" X="80" Y="150" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="4294967295"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </Frame>
+     <Slider Caption="1" ID="103" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="170" Y="45" Width="60" Height="230"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </SoloFrame>
+    <SoloFrame Caption="WASH" ID="30">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="245" Y="40" Width="240" Height="285"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Frame Caption="" ID="31">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="True" X="10" Y="45" Width="160" Height="230"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="wash fill" ID="32" Icon="">
+       <WindowState Visible="True" X="10" Y="10" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="10"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="wash fisse" ID="33" Icon="">
+       <WindowState Visible="True" X="80" Y="10" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="9"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="wash metà" ID="34" Icon="">
+       <WindowState Visible="True" X="10" Y="80" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="66"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="wash random" ID="35" Icon="">
+       <WindowState Visible="True" X="80" Y="80" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="65"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="wash stripes" ID="36" Icon="">
+       <WindowState Visible="True" X="10" Y="150" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="67"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Pulsante 37" ID="37" Icon="">
+       <WindowState Visible="True" X="80" Y="150" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="4294967295"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </Frame>
+     <Slider Caption="2" ID="101" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="170" Y="45" Width="60" Height="230"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </SoloFrame>
+   </Frame>
+   <Frame Caption="" ID="56">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="5" Y="515" Width="485" Height="250"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Frame Caption="" ID="104">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="325" Y="40" Width="80" Height="200"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="WASH SHUTTER CLOSE" ID="105" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="72"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="WASH SHUTTER OPEN" ID="106" Icon="">
+      <WindowState Visible="True" X="10" Y="70" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="70"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="WASH STROBO" ID="107" Icon="">
+      <WindowState Visible="True" X="10" Y="130" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="73"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </Frame>
+    <Frame Caption="" ID="108">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="150" Y="40" Width="80" Height="200"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="PRISMA OFF" ID="109" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="62"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="PRISMA ON" ID="110" Icon="">
+      <WindowState Visible="True" X="10" Y="70" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="61"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="PRISMA ROT" ID="111" Icon="">
+      <WindowState Visible="True" X="10" Y="130" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="63"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </Frame>
+    <Frame Caption="" ID="112">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="140" Height="200"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="SHUTTER CLOSE" ID="113" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="58"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="SHUTTER OPEN" ID="114" Icon="">
+      <WindowState Visible="True" X="70" Y="10" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="57"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="STROBE RANDOM" ID="115" Icon="">
+      <WindowState Visible="True" X="10" Y="70" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="59"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="STROBO FAST" ID="116" Icon="">
+      <WindowState Visible="True" X="70" Y="70" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="60"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="STROBO FAST ALL" ID="117" Icon="">
+      <WindowState Visible="True" X="10" Y="130" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="71"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Pulsante 118" ID="118" Icon="">
+      <WindowState Visible="True" X="70" Y="130" Width="60" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </Frame>
+   </Frame>
+   <Matrix Caption="WASH" ID="43">
+    <WindowState Visible="True" X="490" Y="505" Width="300" Height="145"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="82" InstantApply="true"/>
+    <Visibility>19</Visibility>
+    <Control ID="1">
+     <Type>ResetEndColor</Type>
+     <Resource></Resource>
+    </Control>
+    <Control ID="2">
+     <Type>Animation</Type>
+     <Resource>Even/Odd</Resource>
+    </Control>
+    <Control ID="3">
+     <Type>Animation</Type>
+     <Resource>Fill Unfill From Center</Resource>
+     <Property Name="orientation">Horizontal</Property>
+    </Control>
+    <Control ID="4">
+     <Type>Animation</Type>
+     <Resource>Random Single</Resource>
+    </Control>
+    <Control ID="5">
+     <Type>Animation</Type>
+     <Resource>Plain Color</Resource>
+    </Control>
+    <Control ID="6">
+     <Type>Animation</Type>
+     <Resource>Strobe</Resource>
+     <Property Name="frequency">2</Property>
+    </Control>
+   </Matrix>
+   <Matrix Caption="Q7" ID="44">
+    <WindowState Visible="True" X="490" Y="650" Width="300" Height="145"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="83" InstantApply="true"/>
+    <Visibility>19</Visibility>
+    <Control ID="1">
+     <Type>ResetEndColor</Type>
+     <Resource></Resource>
+    </Control>
+    <Control ID="2">
+     <Type>Animation</Type>
+     <Resource>Plain Color</Resource>
+    </Control>
+    <Control ID="3">
+     <Type>Animation</Type>
+     <Resource>Even/Odd</Resource>
+    </Control>
+    <Control ID="4">
+     <Type>Animation</Type>
+     <Resource>Random Single</Resource>
+    </Control>
+    <Control ID="5">
+     <Type>Animation</Type>
+     <Resource>Strobe</Resource>
+     <Property Name="frequency">2</Property>
+    </Control>
+   </Matrix>
+   <Frame Caption="Macro colori - MAC Aura" ID="98">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="985" Y="10" Width="340" Height="395"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Solo frame dei preset" ID="99">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="15" Y="40" Width="315" Height="345"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="MAC Aura - Beam color wheel effect - Open. RGBW color mixing enabled" ID="100" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="101"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 790 - Moroccan pink" ID="119" Icon="">
+      <WindowState Visible="True" X="60" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294943888</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="102"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 157 - Pink" ID="120" Icon="">
+      <WindowState Visible="True" X="110" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294929796</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="103"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 332 - Special rose pink" ID="121" Icon="">
+      <WindowState Visible="True" X="160" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294914918</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="104"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 328 - Follies pink" ID="122" Icon="">
+      <WindowState Visible="True" X="210" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294919603</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="105"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 345 - Fuchsia pink" ID="123" Icon="">
+      <WindowState Visible="True" X="260" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4292363263</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="106"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 194 - Surprise pink" ID="124" Icon="">
+      <WindowState Visible="True" X="10" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290867455</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="107"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 181 - Congo Blue" ID="125" Icon="">
+      <WindowState Visible="True" X="60" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4282974399</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="108"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 071 - Tokyo Blue" ID="126" Icon="">
+      <WindowState Visible="True" X="110" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278386916</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="109"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 120 - Deep Blue" ID="127" Icon="">
+      <WindowState Visible="True" X="160" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4281293799</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="110"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 079 - Just Blue" ID="128" Icon="">
+      <WindowState Visible="True" X="210" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4283862527</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="111"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 132 - Medium Blue" ID="129" Icon="">
+      <WindowState Visible="True" X="260" Y="90" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4279867903</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="112"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 200 - Double CT Blue" ID="130" Icon="">
+      <WindowState Visible="True" X="10" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4287221503</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="113"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 161 - Slate Blue" ID="131" Icon="">
+      <WindowState Visible="True" X="60" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4288933887</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="114"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 201 - Full CT Blue" ID="132" Icon="">
+      <WindowState Visible="True" X="110" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290240238</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="115"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 202 - Half CT Blue" ID="133" Icon="">
+      <WindowState Visible="True" X="160" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4293260543</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="116"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 117 - Steel Blue" ID="134" Icon="">
+      <WindowState Visible="True" X="210" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4287758324</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="117"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 353 - Lighter Blue" ID="135" Icon="">
+      <WindowState Visible="True" X="260" Y="140" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4279949516</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="118"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 118 - Light Blue" ID="136" Icon="">
+      <WindowState Visible="True" X="10" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4280807679</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="119"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 116 - Medium Blue Green" ID="137" Icon="">
+      <WindowState Visible="True" X="60" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4283550130</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="120"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 124 - Dark Green" ID="138" Icon="">
+      <WindowState Visible="True" X="110" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4280472917</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="121"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 139 - Primary Green" ID="139" Icon="">
+      <WindowState Visible="True" X="160" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4279615744</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="122"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 089 - Moss Green" ID="140" Icon="">
+      <WindowState Visible="True" X="210" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4281657428</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="123"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 122 - Fern Green" ID="141" Icon="">
+      <WindowState Visible="True" X="260" Y="190" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4282908517</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="124"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 738 - JAS Green" ID="142" Icon="">
+      <WindowState Visible="True" X="10" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4289462114</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="125"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 088 - Lime Green" ID="143" Icon="">
+      <WindowState Visible="True" X="60" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4292345707</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="126"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 100 - Spring Yellow" ID="144" Icon="">
+      <WindowState Visible="True" X="110" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294115072</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="127"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 104 - Deep Amber" ID="145" Icon="">
+      <WindowState Visible="True" X="160" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4293903440</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="128"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 179 - Chrome Orange" ID="146" Icon="">
+      <WindowState Visible="True" X="210" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294945821</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="129"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 105 - Orange" ID="147" Icon="">
+      <WindowState Visible="True" X="260" Y="240" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294930183</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="130"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 021 - Gold Amber" ID="148" Icon="">
+      <WindowState Visible="True" X="10" Y="290" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294940160</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="131"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 778 - Millennium Gold" ID="149" Icon="">
+      <WindowState Visible="True" X="60" Y="290" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294933504</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="132"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 135 - Deep Golden Amber" ID="150" Icon="">
+      <WindowState Visible="True" X="110" Y="290" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294923264</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="133"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="MAC Aura - Beam color wheel effect - LEE 164 - Flame Red" ID="151" Icon="">
+      <WindowState Visible="True" X="160" Y="290" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294903808</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="134"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
